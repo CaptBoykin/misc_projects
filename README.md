@@ -1,6 +1,12 @@
 # misc_projects
 Various tools I've made while during my growth and developement.  None of these should require any installation, save installing python modules.  
 
+### config_parser.c
+This is an exercise in reading input from a file and handling / manipulating / storing / and validating the input supplied from it
+```
+Usage: ./config_parser <config file>
+```
+
 ### firewall_hero_iptables
 This script takes recently established connections and applies them towards an iptables ruleset.  This was utilized in Sam Bowne's Firewall Hero challenges.
 https://attack.samsclass.info/firewallhero/
@@ -35,7 +41,7 @@ Options:
 ```
 
 ### tm2csv.py
-Similar to nmap_parse.  This takes the Microsoft Threat Modeling HTML output and generates a csv.
+Similar to `nmap_parse`.  This takes the Microsoft Threat Modeling HTML output and generates a csv.
 ```
 Usage:      python3 ./tm2csv.py -i [IN FILE] -o [OUTFILE]
 Example:    python3 ./tm2csv.py -i my_tm_doc.html -o my_tm_results.csv
